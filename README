@@ -1,0 +1,37 @@
+
+##################################################################################
+Histogram-Free Multicanonical Sampling (using numerical integration as an example)
+##################################################################################
+
+[TODO: Brief introduction of the project.]
+This code is distributed with the paper "xxxxxx", published in Computer Physics Communications....
+
+
+Basic Information:
+==================
+  - Main program: binlessMUCA.py
+  - Input file:   input.txt
+
+
+System Requirements:
+====================
+  - Python 3.6 or above
+  - Python libraries: NumPy, SymPy, Matplotlib
+
+
+To Run the Program:
+===================
+  python binlessMUCA.py input.txt
+
+
+License Information:
+====================
+  BSD 3-clause
+
+
+[TODO: Reference to the Paper]
+==============================
+
+
+[TODO: URL of the Code]
+=======================
