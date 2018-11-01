@@ -3,13 +3,29 @@
 Histogram-Free Multicanonical Sampling (using numerical integration as an example)
 ##################################################################################
 
-[TODO: Brief introduction of the project.]
-This code is distributed with the paper "xxxxxx", published in Computer Physics Communications....
+This code is distributed with the paper "Histogram-free multicanonical Monte 
+Carlo sampling to calculate the density of states", published in Computer Physics 
+Communications (https://doi.org/10.1016/j.cpc.2018.09.025).
+
+The program implements a novel Monte Carlo algorithm to obtain the density of 
+states of a physical system, expanded in a chosen basis set. It can be regarded as 
+a descendant and a hybrid method closely related to the multicanonical method and 
+Wang-Landau sampling. But unlike these existing algorithms that return the density 
+of states as a numerical array, this algorithm avoids binning of a continuous 
+variable and is able to express the density of states as a closed-form expression. 
+It is thus suitable for the study of the statistical mechanics and thermodynamic 
+properties of physical systems where the density of a continuous state variable is 
+of interest.
+
+Contacts:
+=========
+  - Alfred C. K. Farris  (University of Georgia, alfred.farris@uga.edu)
+  - Ying Wai Li          (Oak Ridge National Laboratory, yingwaili@ornl.gov)
 
 
 Basic Information:
 ==================
-  - Main program: binlessMUCA.py
+  - Main program: HistogramFreeMUCA.py
   - Input file:   input.txt
 
 
@@ -21,7 +37,7 @@ System Requirements:
 
 To Run the Program:
 ===================
-  python binlessMUCA.py input.txt
+  python HistogramFreeMUCA.py input.txt
 
 
 License Information:
@@ -29,9 +45,7 @@ License Information:
   BSD 3-clause
 
 
-[TODO: Reference to the Paper]
-==============================
-
-
-[TODO: URL of the Code]
+Reference to the Paper:
 =======================
+  Computer Physics Communiations, in press (2018).
+  https://doi.org/10.1016/j.cpc.2018.09.025
