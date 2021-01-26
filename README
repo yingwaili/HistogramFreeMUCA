@@ -5,7 +5,7 @@ Histogram-Free Multicanonical Sampling (using numerical integration as an exampl
 
 This code is distributed with the paper "Histogram-free multicanonical Monte 
 Carlo sampling to calculate the density of states", published in Computer Physics 
-Communications (https://doi.org/10.1016/j.cpc.2018.09.025).
+Communications (https://www.sciencedirect.com/science/article/pii/S0010465518303485).
 
 The program implements a novel Monte Carlo algorithm to obtain the density of 
 states of a physical system, expanded in a chosen basis set. It can be regarded as 
@@ -19,8 +19,8 @@ of interest.
 
 Contacts:
 =========
-  - Alfred C. K. Farris  (University of Georgia, alfred.farris@uga.edu)
-  - Ying Wai Li          (Oak Ridge National Laboratory, yingwaili@ornl.gov)
+  - Alfred C. K. Farris  (Oxford College of Emory University, alfred.farris@emory.edu)
+  - Ying Wai Li          (Los Alamos National Laboratory, yingwaili@lanl.gov)
 
 
 Basic Information:
@@ -47,5 +47,5 @@ License Information:
 
 Reference to the Paper:
 =======================
-  Computer Physics Communiations, in press (2018).
-  https://doi.org/10.1016/j.cpc.2018.09.025
+  Computer Physics Communiations 235, pp.297-304 (2018).
+  https://www.sciencedirect.com/science/article/pii/S0010465518303485
