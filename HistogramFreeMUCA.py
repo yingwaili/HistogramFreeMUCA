@@ -9,6 +9,9 @@ from getExtrema import *
 import matplotlib.pyplot as plt
 import sys
 
+#from pyinstrument import Profiler
+
+
 # Read variables from input file
 if (len(sys.argv) != 2):
     print('Error: Please Provide Input File as Command Line Argument')
@@ -41,11 +44,22 @@ while (iteration <= maxIter):
     # this fixes the number of terms in the expansion to numTerms
     # also need to reconstruct basis set, etc. with correct number of terms
     if (iteration == 1):
+        
+#        profiler = Profiler()
+#        profiler.start()
+
         lncCoeff = correction(D, ymin, ymax, KS_cutoff, maxBasisTerms, lncBasis, plotFT)
         lncCoeff = np.trim_zeros(lncCoeff, 'b')
         numTerms = len(lncCoeff)
         lngCoeff = np.zeros(numTerms)
         lncBasis_sym, lncBasis, lngBasis_sym, lngBasis = construct_basisSet(numTerms, ymax, ymin)
+
+#        profiler.stop()
+#        print(profiler.output_text(unicode=True, color=True))
+
+#        profiler.open_in_browser()
+#        profiler.output_html()
+
     else:
         if (improved == 0):
             lncCoeff = correction(D, ymin, ymax, KS_cutoff, numTerms, lncBasis, plotFT)
